@@ -6,12 +6,16 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import TheDQVIIISkillSim from './dqviii/TheDQVIIISkillSim.vue';
+import TheDQIXSkillSim from './dqix/TheDQIXSkillSim.vue';
+import TheDQXISkillSim from './dqxi/MyDQXISkillSim.vue';
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    TheDQVIIISkillSim,
+    TheDQIXSkillSim,
+    TheDQXISkillSim
   }
 };
 </script>
